@@ -1,0 +1,224 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 18%, 87%);
+  width: 100%;
+  height: 2900px;
+}
+.recipe-background {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 70%;
+}
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+
+  margin-top: 100px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-radius: 10px;
+  padding: 0;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.title1 {
+  align-self: flex-start;
+  color: hsl(30, 10%, 34%);
+}
+.sub-title1 {
+  max-width: 100%;
+  align-self: flex-start;
+  font-family: "Outfit";
+  line-height: 1.3em;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 20px;
+}
+
+/* preparation section */
+
+.preperation {
+  width: 100%;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  margin: 20px;
+}
+.preperation ul {
+  list-style: none;
+}
+.preperation ul li {
+  font-family: "outfit";
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  line-height: 2em;
+}
+.preperation ul li::before {
+  content: "\2022";
+  color: hsl(332, 51%, 32%);
+  display: inline-block;
+  width: 1em;
+  font-weight: bolder;
+  margin-left: -1em;
+}
+
+.preperation ul li span {
+  font-size: 1em;
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+.preparation-sub-title {
+  margin-left: 20px;
+  color: hsl(332, 51%, 32%);
+}
+
+/* ingredients section */
+
+.ingedients {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  border-bottom: solid hsl(30, 10%, 34%);
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+}
+.ingredients-list li {
+  color: hsl(30, 10%, 34%);
+  font-family: "outfit";
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+.ingredients-list li::before {
+  content: "\2022";
+  color: hsl(14, 45%, 36%);
+  display: inline-block;
+  font-weight: bolder;
+  width: 1.2em;
+  margin-left: -1em;
+}
+
+.ingredients-list {
+  padding-left: 20px;
+  list-style: none;
+}
+.ingredients-title {
+  color: hsl(14, 45%, 36%);
+}
+
+/* instruction section */
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  width: 100%;
+  border-bottom: solid hsl(30, 10%, 34%);
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+}
+.instruction,
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.instruction-list {
+  list-style: none;
+}
+.instruction-list li {
+  color: hsl(30, 10%, 34%);
+  font-family: "outfit";
+  margin-bottom: 20px;
+  line-height: 1.3em;
+}
+
+.instruction-list li::before {
+  content: counter(list-item);
+  color: hsl(14, 45%, 36%);
+  display: inline-block;
+  font-weight: bolder;
+  width: 1.8em;
+  margin-left: -2em;
+}
+span {
+  font-size: 1em;
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+
+/* nutrition section */
+
+.nutrition {
+  align-self: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.nutrition p {
+  font-family: "outfit";
+  color: hsl(30, 10%, 34%);
+}
+.calories {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid hsl(30, 10%, 34%);
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+}
+.carbs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid hsl(30, 10%, 34%);
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+}
+.protien {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid hsl(30, 10%, 34%);
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+}
+.fat {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nut-text1 {
+  position: relative;
+  right: 55px;
+  font-family: "outfit";
+  font-size: 1em;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+.nut-text2 {
+  font-family: "outfit";
+  font-size: 1em;
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
